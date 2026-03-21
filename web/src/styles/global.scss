@@ -1,0 +1,25 @@
+// Carbon Design System — import styles directly
+@use '@carbon/react';
+
+// φ design tokens and themes
+@use 'phi-tokens';
+@use 'themes';
+@use 'blueprint';
+@use 'carbon-overrides';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'IBM Plex Mono', 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,41 @@
+[data-carbon-theme='white'],
+[data-carbon-theme='g10'] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f4f4;
+  --bg-tertiary: #e0e0e0;
+  --text-primary: #161616;
+  --text-secondary: #525252;
+  --text-placeholder: #a8a8a8;
+  --border-subtle: #e0e0e0;
+  --border-strong: #8d8d8d;
+  --interactive: #0f62fe;
+  --highlight: #d0e2ff;
+
+  // Anatomy overlay colors
+  --overlay-padding: rgba(255, 105, 180, 0.25);
+  --overlay-margin: rgba(255, 165, 0, 0.25);
+  --overlay-content: rgba(0, 180, 0, 0.25);
+  --overlay-border-color: #ff69b4;
+  --overlay-margin-color: #ff8c00;
+  --overlay-content-color: #00b400;
+}
+
+[data-carbon-theme='g100'] {
+  --bg-primary: #161616;
+  --bg-secondary: #262626;
+  --bg-tertiary: #393939;
+  --text-primary: #f4f4f4;
+  --text-secondary: #c6c6c6;
+  --text-placeholder: #6f6f6f;
+  --border-subtle: #393939;
+  --border-strong: #6f6f6f;
+  --interactive: #4589ff;
+  --highlight: #002d9c;
+
+  --overlay-padding: rgba(255, 105, 180, 0.3);
+  --overlay-margin: rgba(255, 165, 0, 0.3);
+  --overlay-content: rgba(0, 180, 0, 0.3);
+  --overlay-border-color: #ff69b4;
+  --overlay-margin-color: #ff8c00;
+  --overlay-content-color: #00b400;
+}

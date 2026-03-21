@@ -1,0 +1,46 @@
+:root {
+  --phi: 1.618;
+  --phi-base: 1rem;
+
+  // Spacing scale
+  --sp-2xs: calc(var(--phi-base) * 0.236);   // φ⁻³
+  --sp-xs:  calc(var(--phi-base) * 0.382);   // φ⁻²
+  --sp-sm:  calc(var(--phi-base) * 0.618);   // φ⁻¹
+  --sp-md:  calc(var(--phi-base) * 1);       // φ⁰
+  --sp-sqrt: calc(var(--phi-base) * 1.272);  // √φ
+  --sp-lg:  calc(var(--phi-base) * 1.618);   // φ¹
+  --sp-xl:  calc(var(--phi-base) * 2.618);   // φ²
+  --sp-2xl: calc(var(--phi-base) * 4.236);   // φ³
+  --sp-3xl: calc(var(--phi-base) * 6.854);   // φ⁴
+
+  // Font size scale
+  --fs-xs:  calc(var(--phi-base) * 0.618);
+  --fs-sm:  calc(var(--phi-base) * 0.786);   // φ⁻⁰·⁵ ≈ √(1/φ)
+  --fs-md:  var(--phi-base);
+  --fs-lg:  calc(var(--phi-base) * 1.272);   // √φ
+  --fs-xl:  calc(var(--phi-base) * 1.618);
+  --fs-2xl: calc(var(--phi-base) * 2.058);   // φ^1.5
+  --fs-3xl: calc(var(--phi-base) * 2.618);
+  --fs-4xl: calc(var(--phi-base) * 4.236);
+
+  // Line heights
+  --lh-tight: 1.236;    // 1 + (φ-1)·(φ-1) ≈ tight
+  --lh-base:  1.618;    // φ itself
+  --lh-loose: 2.058;    // φ^1.5
+
+  // Letter spacing
+  --ls-tight: -0.02em;
+  --ls-base:  0em;
+  --ls-wide:  0.06em;   // φ⁻³ ≈ 0.06
+
+  // Border radius
+  --radius-sm: var(--sp-xs);
+  --radius-md: var(--sp-sqrt);
+  --radius-lg: var(--sp-lg);
+  --radius-pill: 999px;
+
+  // φ-derived breakpoints
+  --bp-sm: 517px;    // 320 * φ
+  --bp-md: 838px;    // 517 * φ (approx)
+  --bp-lg: 1355px;   // 838 * φ (approx)
+}

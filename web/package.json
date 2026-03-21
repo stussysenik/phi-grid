@@ -11,11 +11,14 @@
     ]
   },
   "dependencies": {
+    "@carbon/react": "^1.103.0",
+    "@carbon/themes": "^11.69.0",
     "@redwoodjs/forms": "8.9.0",
     "@redwoodjs/router": "8.9.0",
     "@redwoodjs/web": "8.9.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "sass": "^1.98.0"
   },
   "devDependencies": {
     "@redwoodjs/vite": "8.9.0",

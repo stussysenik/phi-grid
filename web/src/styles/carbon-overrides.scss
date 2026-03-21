@@ -1,0 +1,23 @@
+// Carbon overrides with φ tokens
+// Imported via global.scss — do not use @forward on this file
+
+// Override Carbon spacing with φ tokens
+.cds--header {
+  height: calc(var(--sp-2xl) + var(--sp-xs));
+}
+
+.cds--tab-content {
+  padding: var(--sp-lg);
+}
+
+.cds--slider__track {
+  background-color: var(--border-subtle);
+}
+
+.cds--slider__range-label {
+  display: none;
+}
+
+.cds--content-switcher-btn {
+  font-family: 'IBM Plex Mono', monospace;
+}
