@@ -1,5 +1,8 @@
 # φ Grid
 
+![Demo](demo.gif)
+
+
 > A golden ratio design system playground — explore spacing, typography, and layout grids derived entirely from φ.
 
 ![φ Grid — Dark Theme](web/public/screenshots/hero-dark.png)
